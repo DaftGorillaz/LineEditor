@@ -1,0 +1,44 @@
+#include "lineEditor.h"
+#include "intSLList.h"
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+lineEditor::lineEditor()
+{
+  list1.counter();
+}
+
+void lineEditor::listLine(int n, int m)
+{
+  cout << list1;
+}
+
+
+void lineEditor::insertLine(int startLine)
+{
+  //for(int = i; i < n; i++)
+  cout << "it works bitch" << endl;
+}
+
+void lineEditor::append()
+{
+
+}
+
+void lineEditor::deleteLine(int n, int m)
+{
+    /*
+  do
+  {
+    list1.deleteNode();
+  }
+  while(n <= m);
+  */
+}
+
+void lineEditor::exit()
+{
+
+}

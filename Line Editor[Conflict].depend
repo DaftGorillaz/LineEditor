@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1541415975 source:d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\main.cpp
+	<iostream>
+	"lineEditor.h"
+	"intSLList.h"
+
+1541412533 d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\lineeditor.h
+	"intSLList.h"
+
+1541410791 d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\intsllist.h
+	<iostream>
+
+1541417168 source:d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\lineeditor.cpp
+	"lineEditor.h"
+	"intSLList.h"
+	<iostream>
+	<fstream>
+
+1541412497 source:d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\intsllist.cpp
+	"intSLList.h"
+	<iostream>
+	<cstdlib>
+
+1541410815 source:d:\google drive\project 1 line editor\line editor\intsllist.cpp
+	"intSLList.h"
+	<iostream>
+	<cstdlib>
+
+1541410791 d:\google drive\project 1 line editor\line editor\intsllist.h
+	<iostream>
+
+1541410736 source:d:\google drive\project 1 line editor\line editor\lineeditor.cpp
+	"lineEditor.h"
+	"intSLList.h"
+
+1541410728 d:\google drive\project 1 line editor\line editor\lineeditor.h
+	"intSLList.h"
+
+1541410124 source:d:\google drive\project 1 line editor\line editor\main.cpp
+	<iostream>
+	"lineEditor.h"
+	"intSLList.h"
+

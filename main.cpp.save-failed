@@ -1,0 +1,182 @@
+#include <iostream>
+#include "lineEditor.h"
+#include "intSLList.h"
+#include "stringSLList.h"
+#include <fstream>
+#include <string>
+#include <conio.h>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    lineEditor editor;
+    StringSLList textFile;
+
+    string line;
+    fstream text;
+    string fileName = argv[1];
+    char command;
+    int ASCII, Top = 1, End = 0, lineCounter = 0, TotalLines = 0;
+
+    text.open(fileName.c_str());
+
+    while(!text.eof())
+    {
+        getline(text,line);
+        lineCounter++;
+        TotalLines++;
+        cout << lineCounter << ">" << line << endl;
+        textFile.addToTail(line);
+    }
+
+    GoHereToAddLines:
+
+    lineCounter++;
+    cout << lineCounter << ">";
+    getline(cin,line);
+
+    if(line == "E")
+    {
+        //Exit and Save
+        ofstream Save;
+        Save.open(fileName.c_str(), fstream::out);
+        Save << textFile;
+        Save.close();
+        //editor.exit(fileName);
+    }
+    else if (line == "A")
+    {
+        //Append
+    }
+    else if (line == "I")
+    {
+        //Insert Line
+    }
+    else if (line == "D")
+    {
+        //Delete Line
+    }
+    else if (line == "L")
+    {
+        cin >> startLine >> finishLine;
+      if (finishLine == 0)
+      {
+        startLine = finishLine;
+      }
+     else if (startLine > finishLine)
+      {
+        cout << "Invalid." << endl;
+      }
+      //else
+      //editor.listLine(startLine, finishLine);
+      if
+        cout << textFile;
+        goto GoHereToAddLines;
+    }
+    else
+    {
+        textFile.addToTail(line);
+        TotalLines++;
+        goto GoHereToAddLines;
+    }
+
+}
+/*
+int main(int argc, char *argv[])
+{
+  lineEditor editor;
+  StringSLList textFile;
+
+  string line;
+  int command;
+  char ASCII;
+  fstream text;
+  string fileName = argv[1];
+  int startLine = 0, finishLine = 0;
+  int CurrentLine = 0;
+
+  text.open(fileName.c_str());
+
+  start:
+  while (! text.eof())
+  {
+    getline(text,line);
+    CurrentLine++;
+    cout << CurrentLine << ">" << line << "\n";
+    textFile.addToTail(line);
+  }
+
+  cout << CurrentLine + 1 << ">";
+  //cin >> command;
+
+  while(1)
+  {
+    ASCII=getch();
+    command=ASCII;
+    if (command == 73)  //I
+    {
+      cin >> startLine;
+      if(startLine > CurrentLine || startLine <= 0)
+      {
+        cout << "Invalid Input." << endl;
+        cout << CurrentLine + 1 << ">";
+      }
+    else
+    {
+      //editor.insertLine(startLine);
+    }
+  }
+  else if (command == 76)   //L
+  {
+    cin >> startLine >> finishLine;
+    if (finishLine == 0)
+    {
+      startLine = finishLine;
+    }
+    else if (startLine > finishLine)
+    {
+      cout << "Invalid." << endl;
+    }
+    //else
+      //editor.listLine(startLine, finishLine);
+  }
+  else if (command == 69)   //E
+  {
+    //editor.exit(argv[1]);
+    ofstream saveFile;
+    saveFile.open(fileName.c_str(), fstream::out);
+    saveFile << textFile;
+    saveFile.close();
+    break;
+  }
+  else if (command == 68)   //D
+  {
+    cin >> startLine >> finishLine;
+    if (finishLine == 0)
+    {
+      startLine = finishLine;
+    }
+    else if (startLine == 0 || startLine > finishLine)
+    {
+      cout << "Please choose a line to delete." << endl;
+    }
+    //else
+      //editor.deleteLine(startLine, finishLine);
+  }
+  else if (command == 65)   //A
+    goto start;
+  else if (command == 13)   //enter
+  {
+    textFile.addToTail("New string muna.");
+  }
+  }
+
+  if (command == 69)
+    text.close();
+  else
+    goto start;
+
+  cin.get();
+}
+*/

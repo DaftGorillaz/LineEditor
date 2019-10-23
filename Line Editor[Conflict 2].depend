@@ -1,0 +1,102 @@
+# depslib dependency file v1.0
+1541415975 source:d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\main.cpp
+	<iostream>
+	"lineEditor.h"
+	"intSLList.h"
+
+1541495653 d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\lineeditor.h
+	"intSLList.h"
+
+1541495590 d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\intsllist.h
+	<iostream>
+
+1541495784 source:d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\lineeditor.cpp
+	"lineEditor.h"
+	"intSLList.h"
+	<iostream>
+	<fstream>
+
+1541495637 source:d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\intsllist.cpp
+	"intSLList.h"
+	<iostream>
+	<cstdlib>
+
+1541410815 source:d:\google drive\project 1 line editor\line editor\intsllist.cpp
+	"intSLList.h"
+	<iostream>
+	<cstdlib>
+
+1541410791 d:\google drive\project 1 line editor\line editor\intsllist.h
+	<iostream>
+
+1541495784 source:d:\google drive\project 1 line editor\line editor\lineeditor.cpp
+	"lineEditor.h"
+	"intSLList.h"
+	<iostream>
+	<fstream>
+
+1541495653 d:\google drive\project 1 line editor\line editor\lineeditor.h
+	"intSLList.h"
+
+1541495967 source:d:\google drive\project 1 line editor\line editor\main.cpp
+	<iostream>
+	"lineEditor.h"
+	"intSLList.h"
+	"stringSLList.h"
+	<fstream>
+	<string>
+
+1541495331 source:d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\stringsllist.cpp
+	"stringSLList.h"
+	<iostream>
+	<cstdlib>
+
+1541495391 d:\google drive\school\second year\1st sem\ce 22\project 1 line editor\line editor\stringsllist.h
+	<iostream>
+
+1541485309 source:d:\google drive\project 1 line editor\line editor\stringsllist.cpp
+	"stringSLList.h"
+	<iostream>
+	<cstdlib>
+
+1541495391 d:\google drive\project 1 line editor\line editor\stringsllist.h
+	<iostream>
+
+1541509585 source:e:\google drive\obf\school\second year\1st sem\ce 22\project 1 line editor\line editor\intsllist.cpp
+	"intSLList.h"
+	<iostream>
+	<cstdlib>
+
+1541508961 e:\google drive\obf\school\second year\1st sem\ce 22\project 1 line editor\line editor\intsllist.h
+	<iostream>
+
+1541568792 source:e:\google drive\obf\school\second year\1st sem\ce 22\project 1 line editor\line editor\lineeditor.cpp
+	"lineEditor.h"
+	"intSLList.h"
+	<iostream>
+	<fstream>
+	<string>
+	<conio.h>
+
+1541567974 e:\google drive\obf\school\second year\1st sem\ce 22\project 1 line editor\line editor\lineeditor.h
+	"intSLList.h"
+
+1541617250 source:e:\google drive\obf\school\second year\1st sem\ce 22\project 1 line editor\line editor\main.cpp
+	<iostream>
+	"intSLList.h"
+	"stringSLList.h"
+	<fstream>
+	<string>
+	<conio.h>
+	<sstream>
+
+1541617373 e:\google drive\obf\school\second year\1st sem\ce 22\project 1 line editor\line editor\stringsllist.h
+	<iostream>
+
+1541617367 source:e:\google drive\obf\school\second year\1st sem\ce 22\project 1 line editor\line editor\stringsllist.cpp
+	"stringSLList.h"
+	<iostream>
+	<cstdlib>
+	<string>
+	<conio.h>
+
